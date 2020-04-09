@@ -12,41 +12,42 @@ The project of UItestFramework has these features as follows:
 
 
 The directory structure of the entire project:
-├─config  		        #The directory of config file
-│  │  config.ini   	    #main config file
-│  │  globalparam.py    #important global parameters, including directory or log report, etc.
-│  │  __init__.py
-│  │
-│
-├─data   	#test data
-│  └─testdata     	    # test data 
-│          searKey.xlsx
-│
-├─public 
-│  │  __init__.py
-│  │
-│  ├─common  	        #public encapsulated method 
-│  │  │  basepage.py
-│  │  │  datainfo.py
-│  │  │  log.py
-│  │  │  mytest.py
-│  │  │  publicfunction.py
-│  │  │  pyselenium.py
-│  │  │  readconfig.py
-│  │  │  sendmail.py
-│  │  │  __init__.py
-│  │  │
-│  │
-│  ├─pages 	            #stores page classes, designed with Page/Object mode
-│  │  │  baiduIndexPage.py
-│  │  │  __init__.py
-│
-├─report 
-│  ├─log 
-│  │      2016-11-07.log
-│  │
-│  └─testreport  	    #test report in HTML 
-│          TestResult2016-11-07_16_15_51.html
-│
-└─testcase 	            #directory for testcases
-    │  test_baidu.py
+
+├─config                      #The directory of config file<br>
+│  │  config.ini              #main config file<br>
+│  │  globalparam.py          #important global parameters, including directory or log report, etc.  <br>
+│  │  __init__.py             <br>
+│  │<br>
+│<br>
+├─data   	#test data<br>
+│  └─testdata     	    # test data <br>
+│          searKey.xlsx<br>
+│<br>
+├─public <br>
+│  │  __init__.py<br>
+│  │<br>
+│  ├─common  	        #public encapsulated method <br>
+│  │  │  basepage.py<br>
+│  │  │  datainfo.py<br>
+│  │  │  log.py<br>
+│  │  │  mytest.py<br>
+│  │  │  publicfunction.py<br>
+│  │  │  pyselenium.py<br>
+│  │  │  readconfig.py<br>
+│  │  │  sendmail.py<br>
+│  │  │  __init__.py<br>
+│  │  │<br>
+│  │<br>
+│  ├─pages 	            #stores page classes, designed with Page/Object mode<br>
+│  │  │  baiduIndexPage.py<br>
+│  │  │  __init__.py<br>
+│<br>
+├─report <br>
+│  ├─log <br>
+│  │      2016-11-07.log<br>
+│  │<br>
+│  └─testreport  	    #test report in HTML <br>
+│          TestResult2016-11-07_16_15_51.html<br>
+│<br>
+└─testcase 	            #directory for testcases<br>
+    │  test_baidu.py<br>
