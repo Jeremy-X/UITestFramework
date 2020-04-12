@@ -34,20 +34,3 @@ class ReadConfig:
         """
         return self.cf.get(env,name)
 
-
-if __name__ == "__main__":
-    filename = "D:\\oneDrive\\Test\\UItestframework-master\\config\\config.ini"
-    configpath = filename
-    # print(configpath)
-
-    fd = open(configpath)
-    data = fd.read()
-    print(filename)
-    print(codecs.BOM_UTF8)
-    print(type(data))
-    print(data)
-    print(data[:3])
-    print(data[3:])
-
-    cf = configparser.ConfigParser()
-    cf.read(configpath)

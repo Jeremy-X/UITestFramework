@@ -15,7 +15,6 @@ class BaiduIndexPage(basepage.Page):
         """点击搜索按钮"""
         self.dr.click('id->su')
 
-
     def return_title(self):
         """返回该页面的title"""
         return self.dr.get_title()

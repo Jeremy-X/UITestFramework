@@ -19,7 +19,7 @@ def get_xls_to_dict(xlsname, sheetname):
 	table = xls1.sheet_by_name(sheetname)
 	# for i in range(0,table.nrows):
 	# 	dataresult.append(table.row_values(i))
-	dataresult = [table.row_values(i) for i in range(0, table.nrows)]
+	dataresult = [table.row_values(i) for i in range(0, tabl.nrows)]
 	#将list转化成dict
 	# for i in range(1,len(dataresult)):
 	# 	temp = dict(zip(dataresult[0],dataresult[i]))
